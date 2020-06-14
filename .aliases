@@ -1,7 +1,2 @@
-alias rm='/usr/local/bin/rmtrash'
-alias rmdir='/usr/local/bin/rmdirtrash'
-
-alias mysql='mysql --pager=more -D antville'
-
-alias bkupftp='lftp -u u51546,kr33LYvaEPZKjS6d u51546.your-backup.de'
-alias bkupdu='echo du -hs . | bkupftp'
+alias rm='/root/rmtrash/rmtrash'
+alias rmdir='/root/rmtrash/rmdirtrash'
