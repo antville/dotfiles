@@ -16,12 +16,12 @@ color brightblue    ":active|:focus|:hover|:link|:visited|:link|:after|:before|$
 color brightblue    start="\/\*" end="\\*/"
 color green         ";|:|\{|\}"
 
-syntax "Helma Skin" "\.skin$"
+syntax "Helma_Skin" "\.skin$"
 color green start="<" end=">"
 color yellow "<%.+%>"
 color red "<% #[^%]+%>"
 
-syntax "Helma Properties" "\.properties$"
+syntax "Properties" "\.properties$"
 color yellow "[^=]+"
 color green "^[^=]+"
 color blue "#.+"
